@@ -8,8 +8,11 @@ packages = [{include = "preferences_app"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-fastapi = {version = "^0.88.0", extras = ["all"]}
+django = "^4.1.4"
 
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.15.9"
 
 [build-system]
 requires = ["poetry-core"]
