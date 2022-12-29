@@ -13,6 +13,7 @@ django = "^4.1.4"
 
 [tool.poetry.group.dev.dependencies]
 pylint = "^2.15.9"
+bandit = "^1.7.4"
 
 [build-system]
 requires = ["poetry-core"]
